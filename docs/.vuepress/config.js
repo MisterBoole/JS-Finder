@@ -1,6 +1,8 @@
 module.exports = {
   title: 'JS-Finder',
   description: '一个 JS 算法库',
+  base: '/JS-Finder/',
+  dest: './dist',
   head: [
     ['link', {
       rel: 'icon',
