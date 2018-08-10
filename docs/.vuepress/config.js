@@ -18,6 +18,12 @@ module.exports = {
     }],
   ],
   themeConfig: {
+    editLinks: true,
+    editLinkText: '帮助我们改善此页面！',
+    // algolia: {
+    //   apiKey: '<API_KEY>',
+    //   indexName: '<INDEX_NAME>'
+    // },
     nav: [{
         text: '主页',
         link: '/'
@@ -35,7 +41,7 @@ module.exports = {
       '/home/': [""],
     },
     sidebarDepth: 2,
-    lastUpdated: 'Last Updated',
+    // lastUpdated: 'Last Updated',
   },
   serviceWorker: true
 }
