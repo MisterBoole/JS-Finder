@@ -1,0 +1,13 @@
+{
+  "name": "JS-Finder-vuepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/StaminaWang/JS-Finder-vuepress.git",
+  "author": "wanghaigang <wanghaigang@xueqiu.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
