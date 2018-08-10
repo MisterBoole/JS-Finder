@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         text: 'Github',
-        link: 'https://github.com/StaminaWang/JS-Finder-vuepress'
+        link: 'https://github.com/StaminaWang/JS-Finder'
       },
     ],
     sidebar: {
