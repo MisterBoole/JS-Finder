@@ -42,6 +42,12 @@ module.exports = {
     },
     sidebarDepth: 2,
     // lastUpdated: 'Last Updated',
+    repo: 'StaminaWang/JS-Finder',
+    repoLabel: '贡献代码！',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: true,
+    editLinkText: '编辑此页内容!'
   },
   serviceWorker: true
 }
