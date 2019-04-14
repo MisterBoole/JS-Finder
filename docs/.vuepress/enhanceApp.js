@@ -30,8 +30,8 @@ function integrateGitment(router) {
       // ！！！ID最好不要使用默认值（location.href），因为href会携带hash，可能导致一个页面对应像个评论issue！！！
       // https://github.com/imsun/gitment/issues/55
       id: location.pathname,
-      owner: 'https://github.com/StaminaWang', // 必须是你自己的github账号
-      repo: '/JS-Finder/', // 上一个准备的github仓库
+      owner: 'https://github.com/StaminaWang/', // 必须是你自己的github账号
+      repo: 'JS-Finder', // 上一个准备的github仓库
       link: location.origin + location.pathname,
       oauth: {
         client_id: '2a905c4772dba07cafc0', // 第一步注册 OAuth application 后获取到的 Client ID
