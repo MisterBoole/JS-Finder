@@ -37,9 +37,22 @@ module.exports = {
         link: 'https://github.com/StaminaWang/JS-Finder'
       },
     ],
-    sidebar: {
-      '/home/': [""],
-    },
+    // sidebar: {
+    //   '/home/': [""],
+    //   '/page/': [""],
+    // },
+    sidebar: [
+      {
+        title: '介绍',
+        children: [
+          '/home/'
+        ]
+      },
+      {
+        title: '主页',
+        children: [ '/page/']
+      }
+    ],
     sidebarDepth: 2,
     // lastUpdated: 'Last Updated',
     repo: 'StaminaWang/JS-Finder',
