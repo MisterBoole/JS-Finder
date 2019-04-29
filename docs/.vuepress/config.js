@@ -62,5 +62,14 @@ module.exports = {
     editLinks: true,
     editLinkText: '编辑此页内容!'
   },
-  serviceWorker: true
+  serviceWorker: true,
+  plugins: {
+    '@vssue/vuepress-plugin-vssue': {
+      platform: 'github',
+      owner: 'StaminaWang',
+      repo: 'JS-Finder',
+      clientId: 'c248293e3f246f190421',
+      clientSecret: '0bd98418592ace212fe02062fa0a3506e53c73c2',
+    },
+  },
 }
