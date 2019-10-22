@@ -19,6 +19,7 @@ module.exports = {
   ],
   themeConfig: {
     editLinks: true,
+    logo: '/logo.png',
     editLinkText: '帮助我们改善此页面！',
     // algolia: {
     //   apiKey: '<API_KEY>',
@@ -60,7 +61,8 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,
-    editLinkText: '编辑此页内容!'
+    editLinkText: '编辑此页内容!',
+    smoothScroll: true
   },
   serviceWorker: true,
   plugins: {
@@ -71,5 +73,6 @@ module.exports = {
       clientId: 'c248293e3f246f190421',
       clientSecret: '0bd98418592ace212fe02062fa0a3506e53c73c2',
     },
+    '@vuepress/active-header-links': {}
   },
 }
