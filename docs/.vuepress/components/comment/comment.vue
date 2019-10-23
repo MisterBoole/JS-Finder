@@ -1,5 +1,3 @@
-
-
 <template>
   <div class="gitalk-container">
     <div id="gitalk-container"></div>
@@ -14,7 +12,7 @@ export default {
   mounted() {
     let body = document.querySelector('.gitalk-container');
     let script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js';
+    script.src = 'https://unpkg.com/gitalk/dist/gitalk.min.js';
     body.appendChild(script);
     script.onload = () => {
       const commentConfig = {
@@ -36,3 +34,9 @@ export default {
   },
 };
 </script>
+
+<style>
+  @import "https://unpkg.com/gitalk/dist/gitalk.css";
+</style>
+
+ 

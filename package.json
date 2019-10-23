@@ -6,7 +6,7 @@
   "author": "wanghaigang <wanghaigang@xueqiu.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "node ./builds/addMarkdown.js && vuepress dev docs && node ./builds/delMarkdown.js",
+    "docs:dev": "node ./builds/delMarkdown.js && node ./builds/addMarkdown.js && vuepress dev docs ",
     "docs:build": "node ./builds/addMarkdown.js && vuepress build docs && node ./builds/delMarkdown.js",
     "deploy": "bash deploy.sh"
   },
