@@ -1,4 +1,5 @@
 
+
 <template>
   <div class="gitalk-container">
     <div id="gitalk-container"></div>
@@ -34,3 +35,4 @@ export default {
     };
   },
 };
+</script>

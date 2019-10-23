@@ -1,6 +1,7 @@
 const fs = require('fs')
  
 function findMarkdown(dir, callback) {
+  console.log(dir, 'dir')
   fs.readdir(dir, function (err, files) {
     if (err) throw err
  
