@@ -1,7 +1,7 @@
 module.exports = {
   title: 'JS-Finder',
   description: '一个 JS 算法库',
-  base: '/JS-Finder/',
+  base: '/',
   dest: './dist',
   head: [
     ['link', {
@@ -38,10 +38,6 @@ module.exports = {
         link: 'https://github.com/StaminaWang/JS-Finder'
       },
     ],
-    // sidebar: {
-    //   '/home/': [""],
-    //   '/page/': [""],
-    // },
     sidebar: [
       {
         title: '介绍',
@@ -56,7 +52,7 @@ module.exports = {
     ],
     sidebarDepth: 2,
     // lastUpdated: 'Last Updated',
-    repo: 'StaminaWang/JS-Finder',
+    repo: 'MisterBoole',
     repoLabel: '贡献代码！',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -68,7 +64,7 @@ module.exports = {
   plugins: {
     '@vssue/vuepress-plugin-vssue': {
       platform: 'github',
-      owner: 'StaminaWang',
+      owner: 'MisterBoole',
       repo: 'JS-Finder',
       clientId: 'c248293e3f246f190421',
       clientSecret: '0bd98418592ace212fe02062fa0a3506e53c73c2',

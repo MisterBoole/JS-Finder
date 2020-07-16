@@ -6,14 +6,15 @@
   "author": "wanghaigang <wanghaigang@xueqiu.com>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "node ./builds/delMarkdown.js && node ./builds/addMarkdown.js && vuepress dev docs ",
-    "docs:build": "node ./builds/addMarkdown.js && vuepress build docs && node ./builds/delMarkdown.js",
+    "dev": "node ./builds/delMarkdown.js && node ./builds/addMarkdown.js && vuepress dev docs ",
+    "build": "node ./builds/addMarkdown.js && vuepress build docs && node ./builds/delMarkdown.js",
     "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "@vssue/api-github-v3": "^0.8.2",
     "@vssue/vuepress-plugin-vssue": "^0.8.2",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "gitalk": "^1.6.2"
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
