@@ -14,8 +14,8 @@ export default {
   },
   mounted() {
     const commentConfig = {
-      clientID: 'f420fbfb810fb71b3bbc',
-      clientSecret: '2cab139253003739f7253c5ee5378ff192e1b097',
+      clientID: 'bf765c690b5345ced07f',
+      clientSecret: 'ef0b442406287f1c2451703c7d0ed2a2e7e2933f',
       repo: 'JS-Finder',
       owner: 'MisterBoole',
       admin: ['MisterBoole']
