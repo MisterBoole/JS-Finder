@@ -1,10 +1,22 @@
 #!/usr/bin/env sh
 
+project_path=$(cd `dirname $0`; pwd)
+echo $project_path
+
 # 确保脚本抛出遇到的错误
 set -e
 
 # 生成静态文件
 npm run build
+
+# 拷贝CNAME 文件到 dist 目录下
+if test -e $project_path/CNAME
+then
+  echo 'CNAME exist && begin copy'
+  cp -r $project_path/CNAME $project_path/dist/
+else
+  echo 'CNAME not exist'
+fi
 
 # 进入生成的文件夹
 cd dist

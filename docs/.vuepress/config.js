@@ -51,7 +51,6 @@ module.exports = {
       }
     ],
     sidebarDepth: 2,
-    // lastUpdated: 'Last Updated',
     repo: 'MisterBoole',
     repoLabel: '贡献代码！',
     docsDir: 'docs',
