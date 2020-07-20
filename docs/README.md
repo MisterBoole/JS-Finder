@@ -4,7 +4,7 @@ actionText: Get Started →
 actionLink: /home/
 features:
   - title: 这是什么
-    details: 一个 JS 的算法题库，以及常见的面试题的汇总。
+    details: 比较系统的对JS数据结构和算法进行介绍，以案例的方式讲解概念。
   - title: 有哪些特点
     details: 基于 vuepress 搭建，支持评论、在线编辑演示等。
   - title: TODO
