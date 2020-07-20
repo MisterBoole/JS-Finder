@@ -1,19 +1,13 @@
+const sideBar = require('./sidebar.json')
+
 module.exports = {
   title: 'JS-Finder',
-  description: '一个 JS 算法库',
+  description: 'JS 数据结构与算法介绍',
   base: '/',
   dest: './dist',
   head: [
     ['link', {
       rel: 'icon',
-      href: '/logo.png'
-    }],
-    ['link', {
-      rel: 'manifest',
-      href: '/manifest.json'
-    }],
-    ['link', {
-      rel: 'apple-touch-icon',
       href: '/logo.png'
     }],
   ],
@@ -38,37 +32,16 @@ module.exports = {
         link: 'https://github.com/StaminaWang/JS-Finder'
       },
     ],
-    sidebar: [
-      {
-        title: '介绍',
-        children: [
-          '/home/'
-        ]
-      },
-      {
-        title: '主页',
-        children: [ '/page/']
-      }
-    ],
+    sidebar: sideBar,
     sidebarDepth: 2,
-    repo: 'MisterBoole',
+    repo: '/MisterBoole/JS-Finder',
     repoLabel: '贡献代码！',
     docsDir: 'docs',
     docsBranch: 'master',
     editLinks: true,
-    editLinkText: '编辑此页内容!',
+    editLinkText: '帮助我们改善此页面！',
     smoothScroll: true
   },
   serviceWorker: true,
-  plugins: {
-    '@vssue/vuepress-plugin-vssue': {
-      platform: 'github',
-      owner: 'MisterBoole',
-      repo: 'JS-Finder',
-      clientId: 'c248293e3f246f190421',
-      clientSecret: '0bd98418592ace212fe02062fa0a3506e53c73c2',
-    },
-    '@vuepress/active-header-links': {}
-  },
 }
  
