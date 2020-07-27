@@ -1,10 +1,5 @@
 [
-  {
-    "title": "简介",
-    "children": [
-      "/home/"
-    ]
-  },
+  "/home/",
   {
     "title": "时间/空间复杂度",
     "children": [ 

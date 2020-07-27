@@ -15,13 +15,13 @@ export default {
   mounted() {
     const host = window.location.host;
     let clientObj = {
-      clientID: 'c07ee92a8566eeb39de7',
-      clientSecret: 'eeafde547b460f250d8a21a2407dd9086bdf1bcd',
-    }
-    if(host.indexOf('wwww') > -1) {
+        clientID: 'c07ee92a8566eeb39de7',
+        clientSecret: 'eeafde547b460f250d8a21a2407dd9086bdf1bcd',
+      }
+    if(host.indexOf('www') > -1) {
       clientObj = {
-        clientID: 'bf765c690b5345ced07f',
-        clientSecret: 'ef0b442406287f1c2451703c7d0ed2a2e7e2933f',
+        clientID: 'c318a7e3e4a5bf46cff6',
+        clientSecret: 'b1f422540b257b5d72e6c13a3240d10474ad11af',
       }
     }
     const commentConfig = {
