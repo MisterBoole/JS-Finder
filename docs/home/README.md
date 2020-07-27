@@ -7,10 +7,12 @@
 </p>
 
 <p align="center">
-  <a href="https://npmcharts.com/compare/vuepress?minimal=true"><a href="https://opencollective.com/vuepress" alt="Financial Contributors on Open Collective"><img src="https://opencollective.com/vuepress/all/badge.svg?label=financial+contributors" /></a> <img src="https://img.shields.io/npm/dm/vuepress.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/vuepress"><img src="https://img.shields.io/npm/v/vuepress.svg" alt="Version"></a>
-  <a href="https://github.com/vuejs/vuepress/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/vuepress.svg" alt="License"></a>
-  <a href="https://discordapp.com/invite/HBherRA"><img src="https://img.shields.io/badge/Discord-join%20chat-738bd7.svg" alt="VuePress channel on Discord"></a>
+  <a href="https://gitter.im/JS-Finder/community"> <img src="https://badges.gitter.im/You-need-to-know-css/Lobby.svg"></a>
+  <a href="https://github.com/MisterBoole/JS-Finder/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Anti%20996-blue.svg"></a>
+  <a href="https://juejin.im/user/582717d4d203090054e5a010"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-1.2k%20likes-brightgreen.svg"></a>
+  <a href="https://codeclimate.com/github/MisterBoole/JS-Finder/maintainability"><img src="https://api.codeclimate.com/v1/badges/dfba02247f296387a1a7/maintainability" /></a>
+  <a href="http://hits.dwyl.com/MisterBoole/JS-Finder" alt="hit count"><img src="http://hits.dwyl.com/MisterBoole/JS-Finder.svg" /></a> 
+  <!-- <a href="https://github.com/MisterBoole/JS-Finder"><img src="https://img.shields.io/github/stars/l-hammer/You-need-to-know-css.svg?style=social"></a> -->
 </p>
 
 ## 快速开始
@@ -65,7 +67,6 @@
 如果你在留言中备注了你的Github的ID，将会显示在这里🤠
 
 <a href="https://github.com/MisterBoole" target="_blank"><img src="https://avatars1.githubusercontent.com/u/19159159?s=460&u=951a0a27f6b49f67a06756ac6c8cc3820cadf4fc&v=4" width="29" style="border-radius: 50%"></a>
-<a href="https://github.com/l-hammer" target="_blank"><img src="https://avatars1.githubusercontent.com/u/27677988?s=460&u=64d031d33768b2e4c969cafb1caace28e82982e5&v=4" width="29" style="border-radius: 50%"></a>
 <a href="https://github.com/l-hammer" target="_blank"><img src="https://avatars1.githubusercontent.com/u/27677988?s=460&u=64d031d33768b2e4c969cafb1caace28e82982e5&v=4" width="29" style="border-radius: 50%"></a>
 
 ------
