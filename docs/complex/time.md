@@ -1,14 +1,21 @@
-### 时间复杂度
+## 时间复杂度
 
-<iframe 
-  src="https://tool.lu/coderunner/embed/9p3.html"
-  width="100%"
-  height="500"
-  frameborder="0"
-  mozallowfullscreen
-  webkitallowfullscreen
-  allowfullscreen
-></iframe>
+### 时间复杂度是什么？
+
+* 一个函数，用大O表示，如 O(1)、O(n)、O(logN)...
+* 定性的描述算法的运行时间，但不是算法真正的执行运算时间
+
+### 常见的复杂度表示
 
 
-<comment-comment/>
+
+
+
+
+
+
+ 
+ 
+ 
+ <comment-comment/> 
+ 

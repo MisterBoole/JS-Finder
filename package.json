@@ -6,8 +6,8 @@
   "author": "wanghaigang <wanghaigang@xueqiu.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./builds/delMarkdown.js && node ./builds/addMarkdown.js && vuepress dev docs ",
-    "build": "node ./builds/addMarkdown.js && vuepress build docs && node ./builds/delMarkdown.js",
+    "dev": "node ./builds/dealComment.js && vuepress dev docs ",
+    "build": "node ./builds/dealComment.js && vuepress build docs",
     "deploy": "bash deploy.sh"
   },
   "dependencies": {
