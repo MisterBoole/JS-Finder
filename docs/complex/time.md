@@ -7,7 +7,7 @@
 
 ### 常见的复杂度
  
-O(1) < O($\log_2 n$) < O($\sqrt{n}$) < O(n) < O(n$\log_2 n$) < O(n²) < O($2^n^$) < O(n!)
+O(1) < O($\log_2 n$) < O($\sqrt n$) < O(n) < O(n$\log_2 n$) < O(n²) < O($2^n$) < O(n!)
 
 
 ```js
