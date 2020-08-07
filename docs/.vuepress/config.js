@@ -8,12 +8,13 @@ module.exports = {
   head: [
     ['link', {
       rel: 'icon',
-      href: '/logo.png'
+      href: '/img/logo.png'
     }],
+    ['link', { rel: 'stylesheet', href: '/css/katex.min.css' }],
   ],
   themeConfig: {
     editLinks: true,
-    logo: '/logo.png',
+    logo: '/img/logo.png',
     editLinkText: '帮助我们改善此页面！',
     // algolia: {
     //   apiKey: '<API_KEY>',
@@ -43,5 +44,12 @@ module.exports = {
     smoothScroll: true
   },
   serviceWorker: true,
+  markdown: {
+    lineNumbers: true,
+    config: md => {
+      md.set({html: true})
+      md.use(require("markdown-it-katex"))
+    }
+  }
 }
  

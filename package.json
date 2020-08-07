@@ -14,7 +14,9 @@
     "@vssue/api-github-v3": "^0.8.2",
     "@vssue/vuepress-plugin-vssue": "^0.8.2",
     "fs": "^0.0.1-security",
-    "gitalk": "^1.6.2"
+    "gitalk": "^1.6.2",
+    "markdown-it": "^11.0.0",
+    "markdown-it-katex": "^2.0.3"
   },
   "devDependencies": {
     "vuepress": "^1.2.0"
