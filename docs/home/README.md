@@ -1,4 +1,4 @@
-# 关于 JS-Finder
+# 介绍
 
 <p align="center">
   <a href="https://www.jsfinder.cn" target="_blank" rel="noopener noreferrer">
