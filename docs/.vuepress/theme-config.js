@@ -22,7 +22,7 @@ module.exports = {
     },
   ],
   sidebar: sideBar,
-  sidebarDepth: 2,
+  sidebarDepth: 1,
   repo: '/MisterBoole/JS-Finder',
   repoLabel: '贡献代码！',
   docsDir: 'docs',

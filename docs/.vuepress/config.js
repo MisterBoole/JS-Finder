@@ -25,5 +25,12 @@ module.exports = {
     './theme-config.js'
   ],
   themeConfig,
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': 'public'
+      }
+    }
+  }
 }
  
