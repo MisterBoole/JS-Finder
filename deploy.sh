@@ -27,6 +27,7 @@ echo 'cd dist'
 # echo 'www.example.com' > CNAME
 
 git init
+# git remote add origin git@github.com:MisterBoole/JS-Finder.git
 git add -A
 git commit -m 'deploy'
 
