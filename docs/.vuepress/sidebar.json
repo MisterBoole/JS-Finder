@@ -1,6 +1,9 @@
 [
   "/home/",
   "/complex/",
+  "/array/",
+  "/list/",
+  "/queue/",
   "/stack/",
   "/chain/"
 ]
