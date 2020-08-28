@@ -19,6 +19,6 @@
     "markdown-it-katex": "^2.0.3"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0"
+    "@vuepress/plugin-back-to-top": "^1.0.0-rc.1"
   }
 }

@@ -189,3 +189,6 @@ console.log(arr)
 console.log(arr_new)
 // [6, 8]
 ```
+ 
+ <comment-comment/> 
+ 

@@ -24,13 +24,15 @@ module.exports = {
     './sidebar.json',
     './theme-config.js'
   ],
-  themeConfig,
   configureWebpack: {
     resolve: {
       alias: {
-        '@alias': 'public'
+        '@alias': 'public',
+        'vue$':'vue/dist/vue.js'
       }
     }
-  }
+  },
+  plugins: ['@vuepress/back-to-top'],
+  themeConfig,
 }
  
