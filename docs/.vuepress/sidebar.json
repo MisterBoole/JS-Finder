@@ -5,5 +5,15 @@
   "/list/",
   "/queue/",
   "/stack/",
-  "/chain/"
+  "/chain/",
+  "/set/",
+  "/dictionary/",
+  "/tree/",
+  "/Figure/",
+  "/heap/",
+  "/sort/",
+  "/part/",
+  "/plan/",
+  "/greed/",
+  "/back/"
 ]
