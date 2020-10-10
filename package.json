@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node ./builds/dealComment.js && vuepress dev docs ",
-    "build": "node ./builds/dealComment.js && vuepress build docs",
+    "build": "node ./builds/dealComment.js && vuepress build docs && bash copy.sh",
     "deploy": "rm -rf dist && bash deploy.sh"
   },
   "dependencies": {
