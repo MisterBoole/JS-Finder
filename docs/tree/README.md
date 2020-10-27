@@ -5,6 +5,93 @@
 * JS 中没有树，但可以用Object 和 Array 构建树
 * 树的常用操作： 深度/广度优先遍历、先中后序遍历
 
+## 什么是二叉树
+> 二叉树是一种特殊的树，它的子节点个数不超过两个, 在 JS 中通常用 Object 来模拟二叉树
+* 二叉树的两个节点分别叫做做节点和右节点
+* 二叉搜索树（BST）：二叉树的一种，它只允许在左侧节点存储比父节点小的值，在右侧节点存储比父节点大或相等的值。
+
+<div align="center">
+  <img src="/img/tree.webp" width="300"/>
+</div>
+
+## 二叉树的示例
+
+```js
+  const binaryTree = {
+    val: 1,
+    left: {
+      val: 2,
+      left: null,
+      right: null
+    },
+    right: {
+      val: 3,
+      left: null,
+      right: null
+    }
+  }
+```
+
+### 先序遍历
+
+* 先访问根节点
+* 对根节点的左子树进行先序遍历
+* 对根节点的右子树进行先序遍历
+
+<div align="center">
+  <img src="/img/xianxu.jpg" width="150"/>
+</div>
+
+<iframe
+  src="https://tool.lu/coderunner/embed/9VM.html"
+  width="650"
+  height="550"
+  frameborder="0"
+  mozallowfullscreen
+  webkitallowfullscreen
+  allowfullscreen
+></iframe>
+
+### 中序遍历
+
+* 对根节点的左子树进行中序遍历
+* 先访问根节点
+* 对根节点的右子树进行中序遍历
+
+<div align="center">
+  <img src="/img/zhongxu.jpg" width="150"/>
+</div>
+
+<iframe
+  src="https://tool.lu/coderunner/embed/9VN.html"
+  width="650"
+  height="550"
+  frameborder="0"
+  mozallowfullscreen
+  webkitallowfullscreen
+  allowfullscreen
+></iframe>
+
+### 后序遍历
+
+* 对根节点的左子树进行先序遍历
+* 对根节点的右子树进行先序遍历
+* 先访问根节点
+
+<div align="center">
+  <img src="/img/houxu.jpg" width="150"/>
+</div>
+
+<iframe
+  src="https://tool.lu/coderunner/embed/9VO.html"
+  width="650"
+  height="550"
+  frameborder="0"
+  mozallowfullscreen
+  webkitallowfullscreen
+  allowfullscreen
+></iframe>
+
 ## 什么是深度优先遍历
 > 深度优先遍历：尽可能深的搜索树的分支
 
@@ -24,6 +111,8 @@
   webkitallowfullscreen
   allowfullscreen
 ></iframe>
+
+### 
 
 
 ## 什么是广度优先遍历
@@ -48,33 +137,6 @@
   allowfullscreen
 ></iframe>
 
-## 什么是二叉树
-> 二叉树是一种特殊的树，它的子节点个数不超过两个, 在 JS 中通常用 Object 来模拟二叉树
-* 二叉树的两个节点分别叫做做节点和右节点
-* 二叉搜索树（BST）：二叉树的一种，它只允许在左侧节点存储比父节点小的值，在右侧节点存储比父节点大或相等的值。
-
-<div align="center">
-  <img src="/img/tree.webp"/>
-</div>
-
-## 二叉树的示例
-
-```js
-  const binaryTree = {
-    val: 1,
-    left: {
-      val: 2,
-      left: null,
-      right: null
-    },
-    right: {
-      val: 3,
-      left: null,
-      right: null
-    }
-  }
-```
- 
  <comment-comment/> 
  
  
