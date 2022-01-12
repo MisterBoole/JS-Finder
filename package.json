@@ -15,7 +15,7 @@
     "@vssue/vuepress-plugin-vssue": "^0.8.2",
     "fs": "^0.0.1-security",
     "gitalk": "^1.6.2",
-    "markdown-it": "^11.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-katex": "^2.0.3",
     "vuepress": "^1.5.4"
   },
